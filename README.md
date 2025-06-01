@@ -6,19 +6,12 @@
   <h4>Sign Language to Speech Conversion system built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to communicate using American Sign Language(ASL) based gestures in real-time video streams with differently abled. </h4>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/beingaryan/Sign-To-Speech-Conversion/issues)
-[![Forks](https://img.shields.io/github/forks/beingaryan/Sign-To-Speech-Conversion.svg?logo=github)](https://github.com/beingaryan/Sign-To-Speech-Conversion/network/members)
-[![Stargazers](https://img.shields.io/github/stars/beingaryan/Sign-To-Speech-Conversion.svg?logo=github)](https://github.com/beingaryan/Sign-To-Speech-Conversion/stargazers)
-[![Issues](https://img.shields.io/github/issues/beingaryan/Sign-To-Speech-Conversion.svg?logo=github)](https://github.com/beingaryan/Sign-To-Speech-Conversion/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/aryan-gupta-6a9201191/)
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Live Demo](Analysis/output.gif)
 
-## :point_down: Support me here!
-<a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 </br>
 ## :innocent: Motivation
 A language translator is extensively utilized by the mute people for converting and giving shape to their thoughts. A system is in urgent need of __recognizing and translating sign language__.  </br></br>
@@ -30,7 +23,7 @@ Lack of efficient gesture detection system designed specifically for the differe
 <!---Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __research gap__ and to contribute to recognize __American sign languages(ASL)__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ on the test set.--->
 
 
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/z3.gif" width="700" height="400"></p>
+<p align="center"><img src="https://github.com/pizasteve/Sign-To-Speech-Conversion/blob/master/Analysis/z3.gif" width="700" height="400"></p>
 
 ## :warning: TechStack/framework used
 
@@ -44,11 +37,11 @@ The dataset used can be downloaded here - [Click to Download](https://drive.goog
 
 This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></br><b>Train Data Statistics</b></p>
+<p align="center"><img src="https://github.com/pizasteve/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></br><b>Train Data Statistics</b></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
 
 *	__Test Set: 4368 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_Distribution.png" ></br><b>Test Data Statistics</b></p>
+<p align="center"><img src="https://github.com/pizasteve/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_Distribution.png" ></br><b>Test Data Statistics</b></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
 
 
@@ -102,11 +95,11 @@ pip install -r requirements.txt
 python live_detection.py
 ```
 
-2. To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
+2. To train the model, open the [ASL_train](https://github.com/pizasteve/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
 
-3. To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+3. To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/pizasteve/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
-* __'NOTE'__: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+* __'NOTE'__: You can directly use [asl_classifier.h5](https://github.com/pizasteve/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/pizasteve/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
 </br></br>
 ## :key: Results 
